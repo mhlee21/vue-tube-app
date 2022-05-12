@@ -1,5 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true,
-  baseUrl:'/public/'
+  publicPath:'/vue-tube-app/',
+  outputDir: './docs/',
 })
