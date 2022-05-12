@@ -32,7 +32,7 @@ export default new Vuex.Store({
     },
     searchKeyword(context, keyword) {
       const URL = "https://www.googleapis.com/youtube/v3/search"
-      const API_KEY="AIzaSyD58Jt-x0qG1746KCiQU31H_uIWoVVM9SM"
+      const API_KEY=""
       const params = {
         key: API_KEY,
         part: 'snippet',
